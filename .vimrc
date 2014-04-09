@@ -56,7 +56,7 @@ set winheight=25
 
 " Set ignore for wildmenu and ctrlq
 set wildignore+=*/.git/*,*/.hg/*,*/.svn/*   " for Linux/MacOSX
-let g:ctrlp_custom_ignore = '\.git$\|\.hg$\|\.svn$|cache'
+let g:ctrlp_custom_ignore = 'build$\|node_modules$\|.git$\|\.hg$\|\.svn$|cache'
 let g:ctrlp_max_files=0
 
 " Use system clipboard
