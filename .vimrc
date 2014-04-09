@@ -43,6 +43,11 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 
+" JavaScript tab stop
+autocmd FileType javascript setlocal tabstop=4
+autocmd FileType javascript setlocal softtabstop=4
+autocmd FileType javascript setlocal shiftwidth=4
+
 " Don't use backup or swap files. I save frequently.
 set nobackup
 set nowb
