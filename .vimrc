@@ -32,6 +32,14 @@ set cursorline
 
 let mapleader = ","
 
+" Use the arrows to something usefull
+nnoremap <right> :bn<cr>
+nnoremap <left> :bp<cr>
+nnoremap <C-j> <C-W>j
+nnoremap <C-k> <C-W>k
+nnoremap <C-h> <C-W>h
+nnoremap <C-l> <C-W>l
+
 " Always keep 3 lines in view
 set scrolloff=2
 
