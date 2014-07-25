@@ -7,6 +7,8 @@ filetype plugin indent on
 " disable syntax highlighting for vim-gitgutter
 highlight clear SignColumn
 
+set nowrap
+
 "I give up - sometimes I need NERDTree
 nmap <C-n> <Esc>:NERDTreeToggle<CR>
 
