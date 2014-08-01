@@ -1,5 +1,7 @@
 call pathogen#infect()
 
+let g:session_autoload = 'no'
+
 " enable syntax highlighting
 syntax on
 filetype plugin indent on
